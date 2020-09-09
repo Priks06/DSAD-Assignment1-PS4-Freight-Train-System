@@ -1,0 +1,141 @@
+ 
+
+-------------Function showAll--------------
+
+Total number of freight trains: 6
+
+Total number of cities: 8
+
+List of freight trains: 
+
+T1235
+
+T1111
+
+T2342
+
+T1122
+
+T2341
+
+T5623
+
+List of cities: 
+
+Chennai
+
+New Delhi
+
+Calcutta
+
+Ahmedabad
+
+Nagpur
+
+Mumbai
+
+Vishakhapatnam
+
+Hyderabad
+
+--------------Reading user prompt file-----------------
+
+Processing line number: 2
+
+-------------Function displayTransportHub--------------
+
+Main Transport Hub is: New Delhi
+
+Number of trains visited: 3
+
+List of Freight Trains: 
+
+T1235
+
+T2342
+
+T2341
+
+Processing line number: 3
+
+-------------Function displayConnectedCities--------------
+
+Freight Train number: T1122
+
+Number of cities connected: 3
+
+Ahmedabad
+
+Nagpur
+
+Mumbai
+
+Processing line number: 4
+
+-------------Function displayConnectedCities--------------
+
+Train number not provided.
+
+Processing line number: 5
+
+Invalid number of arguments given for searchTrain
+
+Processing line number: 6
+
+-------------Function displayConnectedCities--------------
+
+Freight Train number: T1235
+
+Number of cities connected: 2
+
+Chennai
+
+New Delhi
+
+Processing line number: 7
+
+Invalid number of arguments given for searchCities
+
+Processing line number: 8
+
+Invalid number of arguments given for searchCities
+
+Processing line number: 9
+
+-------------Function displayDirectTrain--------------
+
+City A: Calcutta
+
+City B: New Delhi
+
+Can the package be sent directly: Yes, T2342
+
+Processing line number: 10
+
+-------------Function displayDirectTrain--------------
+
+City A: Chennai
+
+City B: Hyderabad
+
+Can the package be sent directly: No, No direct Freight Train found between: Chennai and Hyderabad
+
+Processing line number: 11
+
+-------------Function findServiceAvailable--------------
+
+City A: Calcutta
+
+City B: Mumbai
+
+Can the package be sent: Yes, Calcutta>T2342>New Delhi>T2341>Ahmedabad>T1122>Mumbai
+
+Processing line number: 12
+
+-------------Function findServiceAvailable--------------
+
+City A: Nagpur
+
+City B: Vishakhapatnam
+
+Can the package by sent: No, No path found between city: Nagpur and city: Vishakhapatnam
